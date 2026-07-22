@@ -1,28 +1,28 @@
 const skills = [
   "Java",
   "Spring Boot",
-  "Python",
+  "SQL",
+  "JPA",
+  "Spring Security",
+  "Docker",
+  "Git",
   "React",
   "Next.js",
-  "AWS",
-  "Docker",
-  "Linux",
 ];
 
 export default function Skills() {
   return (
-    <section className="py-20 px-10">
-      <h2 className="text-4xl font-bold mb-10 text-cyan-400">Tech Stack</h2>
+    <section id="skills" className="skills-section">
+      <div className="skills-container">
+        <h2>Tech Stack</h2>
 
-      <div className="flex flex-wrap gap-4">
-        {skills.map((skill) => (
-          <div
-            key={skill}
-            className="border border-green-400 px-5 py-3 rounded-lg"
-          >
-            {skill}
-          </div>
-        ))}
+        <div className="skills-list">
+          {skills.map((skill) => (
+            <div className="skill" key={skill}>
+              {skill}
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );
