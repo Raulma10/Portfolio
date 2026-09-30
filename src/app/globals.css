@@ -163,7 +163,7 @@ a {
 .projects-subtitle {
   margin-bottom: 10px;
 
-  color: #38bdf8;
+  color: rgb(56, 189, 248);
   font-weight: 500;
 }
 
@@ -171,6 +171,17 @@ a {
   margin: 0 0 16px;
 
   font-size: 42px;
+}
+
+.project-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(10, 64, 87);
+  background-color: rgb(56, 189, 248);
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-bottom: 8px;
 }
 
 .projects-description {

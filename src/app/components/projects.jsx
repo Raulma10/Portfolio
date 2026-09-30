@@ -1,12 +1,5 @@
 const projects = [
     {
-        title: "Portfolio",
-        description:
-        "Personal portfolio created to showcase my projects, skills and experience as a software developer.",
-        technologies: ["Next.js", "React", "CSS"],
-        github: "https://github.com/Raulma10/portfolio",
-    },
-    {
     title: "Peluquería",
     description:
             "Web application for a hair salon, developed with Java and Spring Boot. The project includes a web interface and backend functionality.",
@@ -23,9 +16,10 @@ const projects = [
     {
     title: "Personal Training App",
     description:
-        "Full-stack application for managing personal training clients, built with Java and Spring Boot following hexagonal architecture (ports & adapters). Handles memberships, fees, workout routines and 1:1 training session bookings, with PostgreSQL persistence and Docker-based deployment.",
+        "REST API for managing personal training clients, built with Java and Spring Boot following hexagonal architecture (ports & adapters). Handles memberships, fees, workout routines and 1:1 training session bookings, with PostgreSQL persistence and Docker-based deployment.",
     technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
     github: "https://github.com/Raulma10/gym-manager",
+    inProgress: true,
     },
 ];
 
@@ -63,6 +57,9 @@ export default function Projects() {
 
               <h3>{project.title}</h3>
 
+              {project.inProgress && (
+                <span className="project-status">· In Progress</span>
+              )}
               <p className="project-description">
                 {project.description}
               </p>
