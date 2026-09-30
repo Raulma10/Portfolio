@@ -20,6 +20,13 @@ const projects = [
     technologies: ["Java", "Spring Boot", "HTML", "CSS"],
     github: "https://github.com/Raulma10/Peliculas",
     },
+    {
+    title: "Personal Training App",
+    description:
+        "Full-stack application for managing personal training clients, built with Java and Spring Boot following hexagonal architecture (ports & adapters). Handles memberships, fees, workout routines and 1:1 training session bookings, with PostgreSQL persistence and Docker-based deployment.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+    github: "https://github.com/Raulma10/gym-manager",
+    },
 ];
 
 export default function Projects() {
