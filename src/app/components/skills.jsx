@@ -10,6 +10,7 @@ const skills = [
   "Git",
   "React",
   "Next.js",
+  "Node.js"
 ];
 
 export default function Skills() {

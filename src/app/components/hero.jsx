@@ -10,7 +10,7 @@ export default function Hero() {
       </h1>
 
       <h2>
-        Software Developer | Java & Spring Boot
+        Software Developer | Java & Spring Boot | REST APIs
       </h2>
 
       <p>

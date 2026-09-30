@@ -1,26 +1,33 @@
 const projects = [
-    {
-    title: "Peluquería",
-    description:
-            "Web application for a hair salon, developed with Java and Spring Boot. The project includes a web interface and backend functionality.",
-    technologies: ["Java", "Spring Boot", "HTML", "CSS"],
-    github: "https://github.com/Raulma10/Peluqueria",
-    },
-    {
-    title: "Películas",
-    description:
-        "Web application developed with Java and Spring Boot for managing and displaying movie-related information.",
-    technologies: ["Java", "Spring Boot", "HTML", "CSS"],
-    github: "https://github.com/Raulma10/Peliculas",
-    },
-    {
+  {
     title: "Personal Training App",
     description:
         "REST API for managing personal training clients, built with Java and Spring Boot following hexagonal architecture (ports & adapters). Handles memberships, fees, workout routines and 1:1 training session bookings, with PostgreSQL persistence and Docker-based deployment.",
     technologies: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
     github: "https://github.com/Raulma10/gym-manager",
     inProgress: true,
-    },
+  },
+  {
+    title: "Peluquería",
+    description:
+            "Web application for a hair salon, developed with Java and Spring Boot. The project includes a web interface and backend functionality.",
+    technologies: ["Java", "Spring Boot", "HTML", "CSS"],
+    github: "https://github.com/Raulma10/Peluqueria",
+  },
+  {
+    title: "Películas",
+    description:
+        "Web application developed with Java and Spring Boot for managing and displaying movie-related information.",
+    technologies: ["Java", "Spring Boot", "HTML", "CSS"],
+    github: "https://github.com/Raulma10/Peliculas",
+  },
+  {
+    title: "Inventory Management App",
+    description:
+    "Web application for managing product inventory, built with React and JavaScript. Allows users to view, add and update products through a REST API, using reusable components and CRUD operations.",
+    technologies: ["React", "JavaScript", "Node.js", "REST API"],
+    github: "https://github.com/Raulma10/Inventario-app",
+  },
 ];
 
 export default function Projects() {
