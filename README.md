@@ -25,5 +25,5 @@ Open http://localhost:3000 to view it in the browser. The page auto-updates as y
 
 
 Contact
-LinkedIn
-GitHub
+[LinkedIn](https://www.linkedin.com/in/raul-martin-alcaniz/)
+[GitHub](https://github.com/Raulma10)
