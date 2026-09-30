@@ -58,7 +58,7 @@ export default function Projects() {
               <h3>{project.title}</h3>
 
               {project.inProgress && (
-                <span className="project-status">· In Progress</span>
+                <span className="project-status">In Progress</span>
               )}
               <p className="project-description">
                 {project.description}
