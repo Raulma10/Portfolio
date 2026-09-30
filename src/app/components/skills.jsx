@@ -1,10 +1,12 @@
 const skills = [
   "Java",
   "Spring Boot",
+  "REST APIs",
+  "Microservices",
   "SQL",
   "JPA",
   "Spring Security",
-  "Docker",
+  "MapStruct",
   "Git",
   "React",
   "Next.js",

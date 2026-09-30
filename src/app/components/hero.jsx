@@ -6,11 +6,11 @@ export default function Hero() {
       </p>
 
       <h1>
-        Raul Martin
+        Raúl Martín
       </h1>
 
       <h2>
-        Software Developer | Cybersecurity | Cloud
+        Software Developer | Java & Spring Boot
       </h2>
 
       <p>
