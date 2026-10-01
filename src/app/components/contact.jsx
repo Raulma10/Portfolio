@@ -14,6 +14,24 @@ export default function Contact() {
         >
           Send me an email
         </a>
+
+        <div className="contact-links">
+          <a
+            href="https://www.linkedin.com/in/raul-martin-alcaniz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            href="https://github.com/Raulma10"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </div>
       </div>
     </section>
   );

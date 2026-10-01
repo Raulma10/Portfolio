@@ -8,14 +8,14 @@ const projects = [
     inProgress: true,
   },
   {
-    title: "Peluquería",
+    title: "Hair Salon Management",
     description:
             "Web application for a hair salon, developed with Java and Spring Boot. The project includes a web interface and backend functionality.",
     technologies: ["Java", "Spring Boot", "HTML", "CSS"],
     github: "https://github.com/Raulma10/Peluqueria",
   },
   {
-    title: "Películas",
+    title: "Movie Management",
     description:
         "Web application developed with Java and Spring Boot for managing and displaying movie-related information.",
     technologies: ["Java", "Spring Boot", "HTML", "CSS"],
