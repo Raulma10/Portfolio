@@ -1,6 +1,6 @@
 export const metadata = {
   title: "Raúl Martín | Portfolio",
-  description: "Software Developer Portfolio",
+  description: "Backend Developer Portfolio",
 };
 
 import"./globals.css";
